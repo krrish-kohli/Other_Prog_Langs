@@ -27,7 +27,7 @@ testSort sort input = do
 
 -- Call some tests.
 main = do
-  putStrLn "CECS 342 Assignment 1"
+  putStrLn "CECS 342 Assignment 2"
   putStrLn "Name: Krrish Kohli" 
   putStrLn "Algorithm: quick sort, Language: Haskell"
   

@@ -1,0 +1,13 @@
+CECS 342 Assignment 4
+Name: Claus Jürgensen
+Algorithm: merge sort, Language: Haskell
+Input:  []
+Sorted: []
+Input:  [1]
+Sorted: [1]
+Input:  [3,2,1]
+Sorted: [1,2,3]
+Input:  [102,-43,5,645,4,34,-6,776,445,45]
+Sorted: [-43,-6,4,5,34,45,102,445,645,776]
+Input:  ["the","quick","brown","fox","jumps","over","the","lazy","dog"]
+Sorted: ["brown","dog","fox","jumps","lazy","over","quick","the","the"]

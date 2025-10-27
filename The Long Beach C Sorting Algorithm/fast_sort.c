@@ -1,10 +1,10 @@
-// fast_sort.c
-//
-// CECS 342
-// The Long Beach C Sorting Algorithm Extra Credit Grand Prix
-//
-// Implementation: In-place quicksort
-// Author: Krrish Kohli
+/*
+ * Tools used:
+ * - Compiler: gcc
+ * - Editor: VS Code
+ * - Terminal / Shell: Mac Terminal / bash
+ * - Websites: chatgpt.com, https://en.wikipedia.org/wiki/Quicksort, https://www.geeksforgeeks.org/dsa/quick-sort-algorithm/
+*/
 
 #include "fast_sort.h"
 #include <stdlib.h>

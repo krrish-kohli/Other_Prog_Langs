@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
-        "quicksort.h": "c"
+        "quicksort.h": "c",
+        "fast_sort.h": "c"
     }
 }

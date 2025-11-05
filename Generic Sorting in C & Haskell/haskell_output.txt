@@ -1,0 +1,16 @@
+CECS 342 Assignment 5
+Name: Krrish Kohli
+Generic Sort, Language: Haskell
+
+Task a
+Numbers ascending:
+-876.32, -34.23, 1.10, 1.11, 5.31, 23.46, 37.59, 62.25, 76.41, 467.83, 635.47, 645.41
+
+Task b
+People by name ascending (A->Z):
+Benny, 28; Cindy, 22; Cory, 27; Danna, 20; Doretha, 32; Dwight, 19; Hal, 20; Juan, 33; Kassandra, 21; Lawrence, 25; Mac, 19; Natalie, 25; Risa, 24; Romana, 27; Rosalyn, 26; Susann, 31; Zara, 23
+
+Task c
+People by age (desc), tie -> name (asc):
+Juan, 33; Doretha, 32; Susann, 31; Benny, 28; Cory, 27; Romana, 27; Rosalyn, 26; Lawrence, 25; Natalie, 25; Risa, 24; Zara, 23; Cindy, 22; Kassandra, 21; Danna, 20; Hal, 20; Dwight, 19; Mac, 19
+

@@ -5,7 +5,7 @@
  * - Compiler: gcc
  * - Editor: VS Code
  * - Terminal / Shell: Mac Terminal / bash
- * - Websites: haskell.org, gemini.com, chatgpt.com, https://en.wikipedia.org/wiki/Generic_programming, https://www.geeksforgeeks.org/cpp/c-qsort-vs-c-sort/, https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/
+ * - Websites: haskell.org, gemini.com, chatgpt.com, https://en.wikipedia.org/wiki/Generic_programming, https://www.geeksforgeeks.org/cpp/c-qsort-vs-c-sort/, https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/, https://learn.microsoft.com/en-us/dotnet/csharp/linq/, https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic?view=net-10.0
 */
 
 #include "generic_sorting.cpp"
@@ -34,7 +34,7 @@ int main(void)
 {
     printf("CECS 342 Assignment 6\n");
     printf("Name: Krrish Kohli\n");
-    printf("Generic Sort by qsort, Language: C++\n\n");
+    printf("Generic Sort, Language: C++\n\n");
 
     // -------- Task a): sort numbers in ascending order --------
     printf("Task a):\n");

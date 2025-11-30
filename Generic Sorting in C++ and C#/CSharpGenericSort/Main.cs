@@ -5,18 +5,19 @@
  * - Compiler: gcc
  * - Editor: VS Code
  * - Terminal / Shell: Mac Terminal / bash
- * - Websites: haskell.org, gemini.com, chatgpt.com, https://en.wikipedia.org/wiki/Generic_programming, https://www.geeksforgeeks.org/cpp/c-qsort-vs-c-sort/, https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/
+ * - Websites: haskell.org, gemini.com, chatgpt.com, https://en.wikipedia.org/wiki/Generic_programming, https://www.geeksforgeeks.org/cpp/c-qsort-vs-c-sort/, https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/, https://learn.microsoft.com/en-us/dotnet/csharp/linq/, https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic?view=net-10.0
 */
 
 using System;
+using System.Collections.Generic;
 
-class Program
+class MainProg
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("CECS 342 Assignment 5");
+        Console.WriteLine("CECS 342 Assignment 6");
         Console.WriteLine("Name: Krrish Kohli");
-        Console.WriteLine("Generic Sort by Array.Sort, Language: C#");
+        Console.WriteLine("Generic Sort, Language: C#");
         Console.WriteLine();
 
         // ---- Data: same numbers as in the C assignment ----
@@ -28,7 +29,7 @@ class Program
         };
 
         // ---- Data: same people (name, age) ----
-        Person[] people =
+        var people = new List<Person>
         {
             new Person("Hal", 20),
             new Person("Susann", 31),
@@ -49,41 +50,35 @@ class Program
             new Person("Natalie", 25)
         };
 
-        // Copies of people so we can sort differently without losing original
-        Person[] peopleByName = new Person[people.Length];
-        Person[] peopleByAge  = new Person[people.Length];
-        Array.Copy(people, peopleByName, people.Length);
-        Array.Copy(people, peopleByAge,  people.Length);
-
         // -------- Task a): sort numbers ascending --------
         Console.WriteLine("Task a):");
         Console.WriteLine("Unsorted Numbers:");
-        GenericSorting.PrintNumbers(numbers);
+        Console.WriteLine(GenericSorting.PrintNumbers(numbers));
 
-        Array.Sort(numbers, GenericSorting.DoubleAsc);
+        var numbersSorted = GenericSorting.SortNumbersAsc(numbers);
 
         Console.WriteLine("Sorted Numbers:");
-        GenericSorting.PrintNumbers(numbers);
+        Console.WriteLine(GenericSorting.PrintNumbers(numbersSorted));
         Console.WriteLine();
 
         // -------- Task b): sort people alphabetically by name --------
         Console.WriteLine("Task b):");
         Console.WriteLine("Unsorted name and age:");
-        GenericSorting.PrintPeople(people);
+        Console.WriteLine(GenericSorting.FormatPeople(people));
 
-        Array.Sort(peopleByName, GenericSorting.PersonNameAsc);
+        var peopleSortedbyName = GenericSorting.PersonNameAsc(people);
 
         Console.WriteLine("Sorted name ascending order:");
-        GenericSorting.PrintPeople(peopleByName);
+        Console.WriteLine(GenericSorting.FormatPeople(peopleSortedbyName));
         Console.WriteLine();
 
         // -------- Task c): sort people by age desc, then name asc --------
         Console.WriteLine("Task c):");
 
-        Array.Sort(peopleByAge, GenericSorting.PersonAgeDescNameAsc);
+        var PeopleSortedbyAgethenName = GenericSorting.PersonAgeDescNameAsc(people);
 
         Console.WriteLine("Sorted age descending order and name ascending (if age equal):");
-        GenericSorting.PrintPeople(peopleByAge);
+        Console.WriteLine(GenericSorting.FormatPeople(PeopleSortedbyAgethenName));
         Console.WriteLine();
     }
 }

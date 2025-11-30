@@ -1,0 +1,15 @@
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/bin/Debug/net10.0/CSharpGenericSort
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/bin/Debug/net10.0/CSharpGenericSort.deps.json
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/bin/Debug/net10.0/CSharpGenericSort.runtimeconfig.json
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/bin/Debug/net10.0/CSharpGenericSort.dll
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/bin/Debug/net10.0/CSharpGenericSort.pdb
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/obj/Debug/net10.0/CSharpGenericSort.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/obj/Debug/net10.0/CSharpGenericSort.AssemblyInfoInputs.cache
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/obj/Debug/net10.0/CSharpGenericSort.AssemblyInfo.cs
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/obj/Debug/net10.0/CSharpGenericSort.csproj.CoreCompileInputs.cache
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/obj/Debug/net10.0/CSharpGenericSort.sourcelink.json
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/obj/Debug/net10.0/CSharpGenericSort.dll
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/obj/Debug/net10.0/refint/CSharpGenericSort.dll
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/obj/Debug/net10.0/CSharpGenericSort.pdb
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/obj/Debug/net10.0/CSharpGenericSort.genruntimeconfig.cache
+/Users/krrishkohli/Desktop/CECS 342/HW/Generic Sorting in C++ and C#/CSharpGenericSort/obj/Debug/net10.0/ref/CSharpGenericSort.dll

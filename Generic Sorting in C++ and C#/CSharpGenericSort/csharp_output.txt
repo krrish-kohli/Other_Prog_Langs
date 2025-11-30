@@ -1,6 +1,6 @@
 CECS 342 Assignment 6
 Name: Krrish Kohli
-Generic Sort, Language: C++
+Generic Sort, Language: C#
 
 Task a):
 Unsorted Numbers:

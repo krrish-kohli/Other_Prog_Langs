@@ -20,7 +20,6 @@ class MainProg
         Console.WriteLine("Generic Sort, Language: C#");
         Console.WriteLine();
 
-        // ---- Data: same numbers as in the C assignment ----
         double[] numbers =
         {
             645.41,  37.59,  76.41,   5.31,
@@ -28,7 +27,6 @@ class MainProg
             635.47, -876.32, 467.83, 62.25
         };
 
-        // ---- Data: same people (name, age) ----
         var people = new List<Person>
         {
             new Person("Hal", 20),

@@ -33,7 +33,8 @@ public static class GenericSorting
     }
 
     // Compare two Person by:
-    //  2) if ages are equal, then by name ascending
+    // 1) age in descending order,
+    // 2) if ages are equal, then by name ascending
     public static IEnumerable<Person> PersonAgeDescNameAsc(IEnumerable<Person> people)
     {
         return people.OrderByDescending(p => p.Age).ThenBy(p => p.Name);

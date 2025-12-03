@@ -6,11 +6,11 @@ quicksort(cons(X, Xs)) :-
     quicksort(Hi, SHi),
     append(SLo, cons(X, SHi), S).
 
-partition(X, nil, nil, nil).
-partition(X, cons(Y, Ys), cons(X, Lo), Hi) :-
-    leq(X, Y), partition(X, Ys, Lo, Hi).
-partition(X, cons(Y, Ys), Lo, cons(X, Hi)) :-
+partition(_, nil, nil, nil).
+partition(X, cons(Y, Ys), cons(Y, Lo), Hi) :-
     leq(Y, X), partition(X, Ys, Lo, Hi).
+partition(X, cons(Y, Ys), Lo, cons(Y, Hi)) :-
+    leq(X, Y), partition(X, Ys, Lo, Hi).
 
 append(nil, Ys, Ys).
 append(cons(X, Xs), Ys, cons(X, Zs)) :- append(Xs, Ys, Zs).

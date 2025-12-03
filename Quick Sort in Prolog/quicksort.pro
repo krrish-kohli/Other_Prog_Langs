@@ -4,7 +4,7 @@ quicksort(cons(X, Xs)) :-
     partition(X, Xs, Lo, Hi),
     quicksort(Lo, SLo),
     quicksort(Hi, SHi),
-    append(Lo, cons(X, Hi), S).
+    append(SLo, cons(X, SHi), S).
 
 partition(X, nil, nil, nil).
 partition(X, cons(Y, Ys), cons(X, Lo), Hi) :-

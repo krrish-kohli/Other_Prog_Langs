@@ -16,7 +16,7 @@ append(nil, Ys, Ys).
 append(cons(X, Xs), Ys, cons(X, Zs)) :- append(Xs, Ys, Zs).
 
 leq(X, X).
-leq(X, Z) :- next(Z, Y), leq(Y, Z).
+leq(X, Z) :- next(X, Y), leq(Y, Z).
 
 next(a, b).
 next(b, c).

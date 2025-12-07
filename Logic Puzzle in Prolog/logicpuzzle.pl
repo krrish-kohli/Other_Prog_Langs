@@ -1,5 +1,3 @@
-% "Star Tricked Solution Template.pl"
-%
 % CECS 342 Assignment 3
 % Logic Puzzle
 % Solution Template: >>> Please fill in the missing code! <<<

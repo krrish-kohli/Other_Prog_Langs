@@ -1,6 +1,6 @@
 quicksort(nil, nil).
 %   Uppercase variables, lowercase rest stuff
-quicksort(cons(X, Xs)) :-
+quicksort(cons(X, Xs), S) :-
     partition(X, Xs, Lo, Hi),
     quicksort(Lo, SLo),
     quicksort(Hi, SHi),

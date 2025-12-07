@@ -1,0 +1,5 @@
+Ms. Gort saw the watertower on Tuesday.
+Mr. Klaatu saw the clothesline on Thursday.
+Ms. Barada saw the balloon on Friday.
+Mr. Nikto saw the frisbee on Wednesday.
+true

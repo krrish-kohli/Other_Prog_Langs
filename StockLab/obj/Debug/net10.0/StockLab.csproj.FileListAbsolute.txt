@@ -1,0 +1,15 @@
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/bin/Debug/net10.0/StockLab
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/bin/Debug/net10.0/StockLab.deps.json
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/bin/Debug/net10.0/StockLab.runtimeconfig.json
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/bin/Debug/net10.0/StockLab.dll
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/bin/Debug/net10.0/StockLab.pdb
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/obj/Debug/net10.0/StockLab.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/obj/Debug/net10.0/StockLab.AssemblyInfoInputs.cache
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/obj/Debug/net10.0/StockLab.AssemblyInfo.cs
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/obj/Debug/net10.0/StockLab.csproj.CoreCompileInputs.cache
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/obj/Debug/net10.0/StockLab.sourcelink.json
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/obj/Debug/net10.0/StockLab.dll
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/obj/Debug/net10.0/refint/StockLab.dll
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/obj/Debug/net10.0/StockLab.pdb
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/obj/Debug/net10.0/StockLab.genruntimeconfig.cache
+/Users/krrishkohli/Desktop/Other_Prog/StockLab/obj/Debug/net10.0/ref/StockLab.dll

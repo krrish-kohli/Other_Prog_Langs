@@ -1,0 +1,13 @@
+/Users/krrishkohli/Desktop/Other_Prog/CalculatorLibrary/bin/Debug/net10.0/CalculatorLibrary.deps.json
+/Users/krrishkohli/Desktop/Other_Prog/CalculatorLibrary/bin/Debug/net10.0/CalculatorLibrary.dll
+/Users/krrishkohli/Desktop/Other_Prog/CalculatorLibrary/bin/Debug/net10.0/CalculatorLibrary.pdb
+/Users/krrishkohli/Desktop/Other_Prog/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krrishkohli/Desktop/Other_Prog/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.AssemblyInfoInputs.cache
+/Users/krrishkohli/Desktop/Other_Prog/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.AssemblyInfo.cs
+/Users/krrishkohli/Desktop/Other_Prog/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.csproj.CoreCompileInputs.cache
+/Users/krrishkohli/Desktop/Other_Prog/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.sourcelink.json
+/Users/krrishkohli/Desktop/Other_Prog/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.dll
+/Users/krrishkohli/Desktop/Other_Prog/CalculatorLibrary/obj/Debug/net10.0/refint/CalculatorLibrary.dll
+/Users/krrishkohli/Desktop/Other_Prog/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.pdb
+/Users/krrishkohli/Desktop/Other_Prog/CalculatorLibrary/obj/Debug/net10.0/ref/CalculatorLibrary.dll
+/Users/krrishkohli/Desktop/Other_Prog/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.csproj.AssemblyReference.cache

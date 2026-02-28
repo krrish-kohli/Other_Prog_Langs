@@ -1,0 +1,7 @@
+Enter your first name: Krrish
+Krrish
+Enter your last name: Kohli
+Kohli
+Enter your input that contains only alphabet characters: wrfkjbkjerffrkkkkkrrisherfhbhrjkgkkkohlinkjkgjhkg
+wrfkjbkjerffrkkkkkrrisherfhbhrjkgkkkohlinkjkgjhkg
+Accept

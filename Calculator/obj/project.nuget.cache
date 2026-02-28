@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5s3SCXLXOq0=",
+  "dgSpecHash": "Rtdw8HZhywI=",
   "success": true,
-  "projectFilePath": "/Users/krrishkohli/Desktop/Calculator/Calculator.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/krrishkohli/Desktop/Other_Prog/Calculator/Calculator.csproj",
+  "expectedPackageFiles": [
+    "/Users/krrishkohli/.nuget/packages/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

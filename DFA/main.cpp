@@ -1,5 +1,5 @@
 /* Name: Krrish Kohli
-Course : CECS 329
+Course: CECS 329
 Assignment 4 - Implement a DFA
 Tools used:
  - Compiler: gcc

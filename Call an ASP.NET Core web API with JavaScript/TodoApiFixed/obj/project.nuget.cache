@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "mtgv2ozA7V4=",
+  "success": true,
+  "projectFilePath": "/Users/krrishkohli/Desktop/Other_Prog/Call an ASP.NET Core web API with JavaScript/TodoApiFixed/TodoApiFixed.csproj",
+  "expectedPackageFiles": [
+    "/Users/krrishkohli/.nuget/packages/microsoft.entityframeworkcore/10.0.0/microsoft.entityframeworkcore.10.0.0.nupkg.sha512",
+    "/Users/krrishkohli/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.0/microsoft.entityframeworkcore.abstractions.10.0.0.nupkg.sha512",
+    "/Users/krrishkohli/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.0/microsoft.entityframeworkcore.analyzers.10.0.0.nupkg.sha512",
+    "/Users/krrishkohli/.nuget/packages/microsoft.entityframeworkcore.inmemory/10.0.0/microsoft.entityframeworkcore.inmemory.10.0.0.nupkg.sha512",
+    "/Users/krrishkohli/.nuget/packages/microsoft.extensions.apidescription.server/9.0.0/microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
+    "/Users/krrishkohli/.nuget/packages/microsoft.openapi/1.6.25/microsoft.openapi.1.6.25.nupkg.sha512",
+    "/Users/krrishkohli/.nuget/packages/swashbuckle.aspnetcore/9.0.6/swashbuckle.aspnetcore.9.0.6.nupkg.sha512",
+    "/Users/krrishkohli/.nuget/packages/swashbuckle.aspnetcore.swagger/9.0.6/swashbuckle.aspnetcore.swagger.9.0.6.nupkg.sha512",
+    "/Users/krrishkohli/.nuget/packages/swashbuckle.aspnetcore.swaggergen/9.0.6/swashbuckle.aspnetcore.swaggergen.9.0.6.nupkg.sha512",
+    "/Users/krrishkohli/.nuget/packages/swashbuckle.aspnetcore.swaggerui/9.0.6/swashbuckle.aspnetcore.swaggerui.9.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

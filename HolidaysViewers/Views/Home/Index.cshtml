@@ -1,0 +1,55 @@
+@model HolidaysViewers.Models.HolidaysPageViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section class="hero">
+    <h1 class="display-title">Public Holidays Finder</h1>
+
+    <form method="get" action="/Home/Index" class="search-form">
+        <label for="txtCountryCode">Country Code:</label>
+        <input type="text" id="txtCountryCode" name="countryCode" value="@Model.CountryCode" placeholder="US" />
+
+        <label for="txtYear">Year:</label>
+        <input type="number" id="txtYear" name="year" value="@Model.Year" placeholder="2025" />
+
+        <button type="submit">Submit</button>
+    </form>
+
+    @if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+    {
+        <div class="message error">@Model.ErrorMessage</div>
+    }
+
+    @if (Model.Holidays != null && Model.Holidays.Count > 0)
+    {
+        <table class="holiday-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Name</th>
+                    <th>Local Name</th>
+                    <th>Country Code</th>
+                    <th>Global</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Holidays)
+                {
+                    <tr>
+                        <td>@(item.Date?.ToString("M/d/yyyy"))</td>
+                        <td>@item.Name</td>
+                        <td>@item.LocalName</td>
+                        <td>@item.CountryCode</td>
+                        <td>@item.Global</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else if (!string.IsNullOrWhiteSpace(Model.CountryCode) && Model.Year.HasValue)
+    {
+        <div class="message info">No holidays found for that input.</div>
+    }
+</section>

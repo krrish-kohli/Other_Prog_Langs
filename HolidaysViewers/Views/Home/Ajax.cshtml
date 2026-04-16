@@ -1,0 +1,96 @@
+@{
+    ViewData["Title"] = "Ajax Version";
+}
+
+<section class="hero">
+    <h1 class="display-title">Public Holidays Finder</h1>
+    <p class="subtext">Part II - Client-side request using JavaScript Ajax</p>
+
+    <div class="search-form" id="ajaxForm">
+        <label for="countryCode">Country Code:</label>
+        <input type="text" id="countryCode" placeholder="US" />
+
+        <label for="year">Year:</label>
+        <input type="number" id="year" placeholder="2025" />
+
+        <button type="button" id="btnLoad">Submit</button>
+    </div>
+
+    <div id="statusMessage"></div>
+
+    <table class="holiday-table" id="resultsTable" style="display:none;">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Name</th>
+                <th>Local Name</th>
+                <th>Country Code</th>
+                <th>Global</th>
+            </tr>
+        </thead>
+        <tbody id="resultsBody"></tbody>
+    </table>
+</section>
+
+@section Scripts {
+<script>
+document.getElementById('btnLoad').addEventListener('click', async function () {
+    const countryCode = document.getElementById('countryCode').value.trim();
+    const year = document.getElementById('year').value.trim();
+    const status = document.getElementById('statusMessage');
+    const table = document.getElementById('resultsTable');
+    const body = document.getElementById('resultsBody');
+
+    status.className = '';
+    status.textContent = '';
+    body.innerHTML = '';
+    table.style.display = 'none';
+
+    if (!countryCode || !year) {
+        status.className = 'message error';
+        status.textContent = 'Please enter both country code and year.';
+        return;
+    }
+
+    try {
+        const response = await fetch(`/Home/GetHolidaysAjax?countryCode=${encodeURIComponent(countryCode)}&year=${encodeURIComponent(year)}`);
+        const data = await response.json();
+
+        if (!response.ok) {
+            status.className = 'message error';
+            status.textContent = data.message || 'Request failed.';
+            return;
+        }
+
+        if (!Array.isArray(data) || data.length === 0) {
+            status.className = 'message info';
+            status.textContent = 'No holidays found.';
+            return;
+        }
+
+        data.forEach(item => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${formatDate(item.date)}</td>
+                <td>${item.name ?? ''}</td>
+                <td>${item.localName ?? ''}</td>
+                <td>${item.countryCode ?? ''}</td>
+                <td>${item.global}</td>`;
+            body.appendChild(row);
+        });
+
+        table.style.display = 'table';
+    } catch (error) {
+        status.className = 'message error';
+        status.textContent = 'An unexpected error occurred.';
+    }
+});
+
+function formatDate(value) {
+    if (!value) return '';
+    const date = new Date(value);
+    if (isNaN(date)) return value;
+    return `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
+}
+</script>
+}
